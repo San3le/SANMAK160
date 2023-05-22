@@ -1,0 +1,54 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    border-left: 2cm;
+    border-left-style:double;
+    padding: 5px; ;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header {
+    font-size: medium;
+    color: brown;   
+}
+
+nav {
+    column-gap: 5cm;
+    font-style: oblique;
+    color: black;
+}
+
+h2,h4 {
+    font-style: inherit;
+    color: brown;
+}
+
+
+section{
+    border-style: double;
+}
+
+footer {
+    background-color: bisque;
+    border-style: groove;
+}
+
+.image{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+image.Me{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid brown;
+}
