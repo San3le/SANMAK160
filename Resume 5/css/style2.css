@@ -10,13 +10,12 @@ header {
 
 nav {
   margin: 10px;
-  column-gap: 5cm;
   font-style: oblique;
   color: black;
-  border-top-right-radius: 5px;
 }
+
 section {
-    border-radius: 5px;
+  border-radius: 5px;
   border-style: solid;
   margin: 20px;
   padding: 5px;
@@ -56,5 +55,10 @@ img {
   border: 10px solid;
   border-style: solid;
   border-color: brown;
-  border-radius: 5%;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
