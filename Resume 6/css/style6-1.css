@@ -6,6 +6,7 @@ body {
 header {
   font-size: medium;
   color: brown;
+  position: relative;
 }
 
 nav {
@@ -82,4 +83,5 @@ div {
 
 .back-to-top span{
   justify-content: right;
+  right: 0px;
 }
