@@ -1,6 +1,10 @@
 body {
   background-color: antiquewhite;
   font-family: "Times New Roman", Times, serif;
+  background-image: url(image.jpeg);
+  background-size: contain;
+  width: auto;
+  height: auto;
 }
 
 header {
