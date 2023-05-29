@@ -6,8 +6,9 @@ body {
 header {
   font-size: medium;
   color: brown;
-  position: relative;
 }
+
+
 
 nav {
   margin: 10px;
@@ -71,6 +72,7 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .bact-to-top{
