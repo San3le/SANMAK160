@@ -14,9 +14,11 @@ nav {
   font-style: oblique;
   color: black;
   position: sticky;
+  top: 20px;
 }
 
 .nav{
+  background-color: rgb(142, 115, 83);
   display: flex;
   justify-content: right;
   top: 20px;
