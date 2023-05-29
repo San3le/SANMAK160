@@ -14,9 +14,11 @@ nav {
   font-style: oblique;
   color: black;
   position: sticky;
+  top: 20px;
 }
 
 .nav{
+  background-color: rgb(142, 115, 83);
   display: flex;
   justify-content: right;
   top: 20px;
@@ -73,15 +75,23 @@ div {
 
 .bact-to-top{
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 80px;
+  right: 80px;
   display: inline-flex;
-  align-items: center;
+  align-items: right;
   justify-content: center;
-  border-radius: 0.5rem;
 }
 
 .back-to-top span{
   justify-content: right;
-  right: 0px;
+  right: 80px;
+  bottom: 80px;
+}
+
+span{
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  bottom: 80px;
+  right: 80px;
 }
